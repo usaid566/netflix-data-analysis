@@ -1,71 +1,71 @@
+# Netflix Data Analysis
 
-# netflix-data-analysis
-Netflix dataset analysis using Python &amp; Pandas
+Analyze Netflix movies data using Python and Pandas
 
-📌 Overview
-This project performs Exploratory Data Analysis (EDA) on a Netflix movies dataset to uncover patterns, trends, and insights. The analysis involves:
+---
 
-Data cleaning and preprocessing
+## 📌 Overview
 
-Descriptive statistics
+This project conducts **Exploratory Data Analysis (EDA)** on a Netflix movies dataset to discover patterns, trends, and actionable insights. The analysis covers:
 
-Visualization of numeric and categorical features
+- **Data Cleaning & Preprocessing**
+- **Descriptive Statistics**
+- **Visualization of Numeric & Categorical Features**
+- **Correlation Analysis**
+- **Outlier Detection**
 
-Correlation analysis
+The goal is to understand the dataset’s characteristics and prepare it for further analysis or predictive modeling.
 
-Outlier detection
+---
 
-The objective is to understand the dataset’s characteristics and prepare it for further analysis or predictive modeling.
-📂 Dataset
-File: mymoviedb.csv
+## 📂 Dataset
 
-Description: Metadata about Netflix movies including popularity, ratings, genres, languages, and release dates.
+- **File:** `mymoviedb.csv`
+- **Description:** Contains metadata about Netflix movies, including popularity, ratings, genres, languages, and release dates.
 
-Key Columns:
+### Key Columns
 
-Title — Movie name
+| Column             | Description                  |
+|--------------------|-----------------------------|
+| `Title`            | Movie name                  |
+| `Release_Date`     | Date of release             |
+| `Popularity`       | Popularity score            |
+| `Vote_Count`       | Number of votes             |
+| `Vote_Average`     | Average rating              |
+| `Original_Language`| Primary language            |
+| `Genre`            | Movie genre                 |
 
-Release_Date — Date of release
+---
 
-Popularity — Popularity score
+## 📊 Analysis Workflow
 
-Vote_Count — Number of votes
+1. **Data Loading**
+   - Import CSV file and preview dataset.
+2. **Data Cleaning**
+   - Handle missing values
+   - Convert `Release_Date` to datetime
+3. **EDA**
+   - Distribution of numeric columns
+   - Top languages and genres
+   - Correlation heatmap
+   - Outlier detection
 
-Vote_Average — Average rating
+---
 
-Original_Language — Primary language
+## 🛠 Tools & Libraries
 
-Genre — Movie genre
+- **Python 3.x**
+- **Pandas** — Data manipulation
+- **Matplotlib & Seaborn** — Data visualization
 
-📊 Analysis Steps
-Data Loading — Import CSV file and preview dataset.
+---
 
-Data Cleaning — Handle missing values, convert Release_Date to datetime.
+## 📈 Key Insights
 
-EDA —
+- Certain genres and languages dominate the Netflix movie library.
+- Popularity is loosely correlated with vote count but not strongly with ratings.
+- A small number of movies receive disproportionately high votes and popularity scores, indicating outliers.
 
-Distribution of numeric columns
+---
 
-Top languages and genres
-
-Correlation heatmap
-
-Outlier detection
-
-
-Outlier detection
-
-🛠 Tools & Libraries
-Python 3.x
-
-Pandas — Data manipulation
-
-Matplotlib & Seaborn — Visualization
-
-
-📈 Key Insights
-Certain genres and languages dominate the Netflix movie library.
-
-Popularity is loosely correlated with vote count but not strongly with ratings.
-
-A small number of movies receive disproportionately high votes and popularity scores, indicating outliers.
+*Feel free to explore the repository and reach out for any suggestions or queries!*
